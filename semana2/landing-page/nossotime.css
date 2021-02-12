@@ -1,0 +1,73 @@
+
+body {
+    background-color: white;
+}
+
+img {
+    display: flex;
+    height: 130px;
+    border-radius: 30px;
+    color:#333;
+    width: 200px;
+    padding-left: 8px;
+}
+
+.barra-funcionarios {
+    display: grid;
+    justify-content: center;
+    height: 100vh;   
+}
+
+.funcionario-um {
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.funcionario-dois {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.funcionario-tres {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.work-item {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: #f2884b;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+
+p {
+    color: #f2884b;
+    font-family: sans-serif;
+}
+
+p:nth-child(2) {
+    color: #333;    
+}
+
+.nosso-time p{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
