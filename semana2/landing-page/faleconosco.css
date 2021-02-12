@@ -1,30 +1,104 @@
-/* CSS DA PÁGINA FALE CONOSCO */
+/***** CSS DA PÁGINA FALE CONOSCO *****/
+/* caso haja necessidade de utilizar tags semânticas favor avisar!*/
 
+
+@import ('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0cm;
+    padding: 0cm;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*main do fale conosco*/
+
+main {
+    background-color: #f2f2f2;
+    font-family: 'Roboto' , sans-serif;
+    color: #f2884b;
+
+}
+
+/*cabeçalho*/
+h1 {
+    text-align: center;
+}
+
+/*introdução*/
+p {
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+/*marcação do fale conosco e qual produto você procura*/
 fieldset {
     margin: 1em 0;
     padding: 1em;
     border: 1px solid;
-    background-color: ;
+    border-radius: 6px;
 }
 
+/*títulos marcação*/
 legend {
     font-weight: bold;
 }
 
+/*todas as label da página estão aqui*/
 label {
     display: block;
     cursor: pointer;   
 }
 
+/*todos os inputs de texto estão aqui, exceto o submit*/
 input{
     width: 20em;
+    margin: 10px;
+    border-radius: 6px;
+    color: #f2884b;
+}
+
+/*caixa de opções*/
+select {
+    border-radius: 6px;
+    width: 20em;
+    color: #f2884b;
+}
+
+/*caixa de texto mensagem*/
+.caixa-de-mensagens {
+    margin-top: 15px;
 }
 
 textarea {
     width: 20em;
     height: 10em;
+    border-radius: 6px;
+    color: #f2884b;
 }
 
+/*input botão enviar*/
 input.submit {
-    width: 5em;
+    width: 12em;
+    height: 3em;
+    border-radius: 6px;
+    color: #f2884b;
 }
+
+/* ----------------------------------- FIM FALE CONOSCO ----------------------------------- */
+
+/***** CSS PÁGINA DE MANUTENÇÃO *****/
+
+.manu {
+    margin-top: 5em;
+}
+
+.manu h3 {
+    margin-top: 5em;
+    padding: 100px;
+    text-align: center;
+    font-style: italic;
+}
+
+/* ----------------------------------- FIM MANUTENÇÃO ----------------------------------- */
